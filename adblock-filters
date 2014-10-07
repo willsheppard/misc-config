@@ -1,0 +1,12 @@
+! At work - don't mess with anything
+@@||db.com/$document
+@@||db.com:8443/$document
+@@||db.com:11443/$document
+
+! Stackoverflow network sites
+! Don't distract me with interesting but unrelated content
+stackoverflow.com##DIV[id="newsletter-ad"]
+##DIV[class="module community-bulletin"]
+##DIV[id="chat-feature"][class="module"]
+##DIV[id="hot-network-questions"][class="module"]
+##DIV[class="module sidebar-related"]
