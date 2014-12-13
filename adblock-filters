@@ -1,3 +1,8 @@
+! Syntax documentation:
+! https://adblockplus.org/en/filters
+
+! Rules below
+
 ! At work - don't mess with anything
 @@||db.com/$document
 @@||db.com:8443/$document
