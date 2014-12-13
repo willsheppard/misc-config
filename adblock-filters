@@ -10,3 +10,7 @@ stackoverflow.com##DIV[id="newsletter-ad"]
 ##DIV[id="chat-feature"][class="module"]
 ##DIV[id="hot-network-questions"][class="module"]
 ##DIV[class="module sidebar-related"]
+
+! Hide my picture icon next to the "Write a comment..." input box.
+! It's confusing to see my picture there, it always makes me think I've already commented.
+facebook.com##.img.UFIActorImage[alt="Will Sheppard"]
