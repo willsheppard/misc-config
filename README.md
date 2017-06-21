@@ -1,4 +1,4 @@
 misc-config
 ===========
 
-Misc config
+Misc config.
