@@ -6,4 +6,7 @@
     // If true, the copy and cut commands will operate on the current line
     // when the selection is empty, rather than doing nothing.
     "copy_with_empty_selection": false,
+
+    // Disable auto complete so it's not triggered automatically when typing.
+    "auto_complete": false,
 }
