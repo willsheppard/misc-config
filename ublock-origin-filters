@@ -1,0 +1,82 @@
+!! Documentation: https://adblockplus.org/en/filters
+
+! 11/8/2017, 3:52:58 PM https://jira.nap/browse/CANDO-10286
+jira.nap##.info.aui-message-info.aui-message
+
+! 11/8/2017, 4:10:33 PM https://tfl.gov.uk/tube-dlr-overground/status/
+tfl.gov.uk##.status-update-heading.r
+
+! 11/8/2017, 4:11:01 PM https://tfl.gov.uk/tube-dlr-overground/status/
+tfl.gov.uk##.clearfix.breadcrumbs
+
+! 11/9/2017, 9:30:01 AM https://confluence.nap/display/SCALA/Projects+using+Scala
+||confluence.nap/download/attachments/1247940/w.sheppard-34776-pp-7eead2d69d4b7b74674be3f990f0f2c1.jpeg$image
+
+! 11/9/2017, 2:16:06 PM https://stackoverflow.com/questions/18679870/list-commits-between-2-commit-hashes-in-git
+stackoverflow.com###hot-network-questions
+
+! 11/13/2017, 12:42:55 PM https://unix.stackexchange.com/questions/115917/why-is-bash-not-storing-commands-that-start-with-spaces
+unix.stackexchange.com###hot-network-questions
+
+! 11/13/2017, 1:58:55 PM https://stackoverflow.com/users/343204/snowcrash
+stackoverflow.com##.communities-posts.sidebar-element
+
+! 11/14/2017, 10:07:54 AM https://sqa.stackexchange.com/
+sqa.stackexchange.com###hot-network-questions
+
+! 11/14/2017, 3:08:54 PM https://www.youtube.com/watch?v=a_FAF_v87Qw
+www.youtube.com###related
+
+! 11/14/2017, 3:09:14 PM https://www.youtube.com/watch?v=6qlPoNKa9sI
+www.youtube.com###comments
+
+! 11/16/2017, 2:59:17 PM https://apple.stackexchange.com/questions/16135/remap-home-and-end-to-beginning-and-end-of-line
+apple.stackexchange.com###hot-network-questions
+
+! 11/20/2017, 10:36:34 AM https://stash.nap/projects/CANDO/repos/conrad-vagrant/pull-requests/8/overview
+stash.nap##.collapsed.general-comment-form.new-comment-form > .user-avatar.aui-avatar-medium.aui-avatar > .aui-avatar-inner
+
+! 11/23/2017, 2:01:33 PM https://serverfault.com/questions/884858/is-there-a-way-to-measure-clients-connection-speed
+###hot-network-questions
+
+! 11/29/2017, 11:34:06 AM https://github.com/jsbin/jsbin/issues/3157
+github.com##a[href="/willsheppard"] > .timeline-comment-avatar
+
+! 12/5/2017, 11:35:52 AM
+www.huffingtonpost.com##.nav-sticky__title.nav-sticky__item
+
+! 12/5/2017, 1:05:58 PM
+www.independent.co.uk##.right-hand-column
+
+!! Below here, copied from Adblock Plus:
+
+! Syntax documentation:
+! https://adblockplus.org/en/filters
+! Rules below
+
+! Don't mess with anything for db.com
+@@||db.com/$document
+@@||db.com:8443/$document
+@@||db.com:11443/$document
+
+! Stackoverflow network sites
+! Don't distract me with interesting but unrelated content
+stackoverflow.com##DIV[id="newsletter-ad"]
+##DIV[class="module community-bulletin"]
+##DIV[id="chat-feature"][class="module"]
+##DIV[id="hot-network-questions"][class="module"]
+##DIV[class="module sidebar-related"]
+
+! Facebook: Hide my picture icon next to the "Write a comment..." input box.
+! It's confusing to see my picture there, it always makes me think I've already commented.
+facebook.com##.img.UFIActorImage[alt="Will Sheppard"]
+
+! Hide distracting Google doodles and promotions
+! 12/8/2017, 9:58:38 AM https://www.google.co.uk/
+www.google.co.uk###hplogo
+www.google.co.uk###lga
+www.google.co.uk###prm
+
+! 12/13/2017, 2:57:50 PM https://confluence.nap/display/COMMANDO/Conrad%3A+Elasticsearch+Queries
+confluence.nap##.comment-user-logo
+
