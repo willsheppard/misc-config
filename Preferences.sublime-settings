@@ -1,5 +1,7 @@
 {
+	"show_definitions": false,
 	"auto_complete": false,
+	"tab_completion": false,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"copy_with_empty_selection": false,
 	"font_size": 16,
