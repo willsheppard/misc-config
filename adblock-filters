@@ -19,3 +19,8 @@ stackoverflow.com##DIV[id="newsletter-ad"]
 ! Hide my picture icon next to the "Write a comment..." input box.
 ! It's confusing to see my picture there, it always makes me think I've already commented.
 facebook.com##.img.UFIActorImage[alt="Will Sheppard"]
+
+! Hide Google Doodles
+###hplogo
+###lga
+google.co.uk#?#dood
