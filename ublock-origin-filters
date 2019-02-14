@@ -58,14 +58,43 @@ facebook.com##.img.UFIActorImage[alt="Will Sheppard"]
 
 ! Hide distracting Google doodles and promotions
 ! 12/8/2017, 9:58:38 AM https://www.google.co.uk/
+www.google.co.uk##.logo
 www.google.co.uk###hplogo
+www.google.co.uk###logocont
 www.google.co.uk###lga
 www.google.co.uk###prm
+www.google.com##.logo
+www.google.com###hplogo
+www.google.com###logocont
+www.google.com###lga
+www.google.com###prm
+||www.google.co.uk/logos/doodles/$image
 
 !! /End section copied from Adblock Plus
 
 confluence.nap##.comment-user-logo
 www.pcworld.com##.small-player.video-wrapper
 www.pcworld.com##.stick-rr-vid.howto-video-feature
-www.google.co.uk###logocont
-##.sidebar
+
+www.express.co.uk##.right-column
+
+||avatars1.githubusercontent.com/u/1519594?s=88&v=4$image
+||avatars1.githubusercontent.com/u/1519594$image
+github.com##.js-comment-container.timeline-new-comment.timeline-comment-wrapper > .timeline-comment-avatar
+medium.com##.multirecommend
+medium.com##.u-paddingTop20.u-marginTop10.u-borderTopLightest.uiScale-caption--regular.uiScale-ui--small.uiScale
+gizmodo.com##.sidebar
+
+!! Broadbean
+
+bitbucket.org##[src="https://bitbucket.org/account/seanlatbean/avatar/32/?ts=1536551955"]
+||bitbucket.org/account/seanlatbean/avatar/64/$image
+broadbean.atlassian.net##.tabs-menu
+broadbean.atlassian.net###zendesk_for_jira__issue-panel
+broadbean.atlassian.net###jql-extensions__issuejql-leftpanel
+broadbean.atlassian.net###hipchat-viewissue-panel
+broadbean.atlassian.net###rw-smart-checklists__rw-checklist-issue-panel-right
+broadbean.hipchat.com##.aui-button-light.aui-button.hc-video-call-btn-link
+broadbean.hipchat.com##.aui-button-light.aui-button.hc-video-call-btn-link
+
+bitbucket.org##.clearfix.participants.qr-notice
