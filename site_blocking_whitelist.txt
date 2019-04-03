@@ -1,0 +1,18 @@
+# Allowed sites, to be used with software like Chrome's plugins
+# StayFocusd or WasteNoTime, or router or ISP-level blocking.
+*.github.com
+*.metacpan.org
+*.mojolicious.org
+*.google.com
+*.google.co.uk
+https://en.wikipedia.org/wiki/List_of_HTTP_status_codes*
+*127.0.0.1*
+*bitbucket.org
+broadbean.atlassian.net
+*.simplenote.com
+*.whatsapp.com
+cb.zoom.us
+wills-tech-notes.blogspot.*
+chrome://*
+https://beautifier.io/*
+*.perl.org

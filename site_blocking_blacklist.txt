@@ -1,0 +1,13 @@
+# Prohibited sites, to be used with software like Chrome's plugins
+# StayFocusd or WasteNoTime, or router or ISP-level blocking.
+*.facebook.com
+*.reddit.com +links
+*.digg.com +links
+*.linkedin.com
+*quora.com
+*tvtropes.org
+*youtube.com
+*vimeo.com
+*ted.com
+*google.com*img*
+*urbandictionary.com
