@@ -29,3 +29,7 @@ google.co.uk#?#dood
 ! Note: the "autoplay" switch also gets hidden
 youtube.com##.style-scope.ytd-comments
 youtube.com###items
+! Block everything on Youtube, except the video
+!youtube.com###info
+!youtube.com##.style-scope.ytd-video-secondary-info-renderer
+!youtube.com##.style-scope.ytd-video-primary-info-renderer
