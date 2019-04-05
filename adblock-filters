@@ -24,3 +24,8 @@ facebook.com##.img.UFIActorImage[alt="Will Sheppard"]
 ###hplogo
 ###lga
 google.co.uk#?#dood
+
+! Hide Youtube comments and recommended videos
+! Note: the "autoplay" switch also gets hidden
+youtube.com##.style-scope.ytd-comments
+youtube.com###items
