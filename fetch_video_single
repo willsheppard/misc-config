@@ -1,0 +1,1 @@
+youtube-dl "$1" --ignore-errors --prefer-ffmpeg --output "%(title)s.%(ext)s"

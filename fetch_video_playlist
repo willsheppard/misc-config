@@ -1,0 +1,1 @@
+youtube-dl "$1" --ignore-errors --prefer-ffmpeg --output "%(playlist_index)s - %(title)s.%(ext)s"
