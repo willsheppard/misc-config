@@ -1,5 +1,6 @@
 # Prohibited sites, to be used with software like Chrome's plugins
 # StayFocusd or WasteNoTime, or router or ISP-level blocking.
+
 *.facebook.com
 *.reddit.com +links
 *.digg.com +links
@@ -11,3 +12,64 @@
 *ted.com
 *google.com*img*
 *urbandictionary.com
+
+##### Top 50 time-wasting websites from http://www.bumblebeesystems.com/wastenotime/shared/top-50-block-list.txt #####
+
+*.facebook.com
+*.digg.com+links
+*.reddit.com+links
+*.linkedin.com
+*quora.com
+*tvtropes.org
+*youtube.com
+*vimeo.com
+*ted.com
+*google.com*img*
+*urbandictionary.com
+*.youtube.com
+*.twitter.com
+*.instagram.com
+*.weibo.com
+*.zhihu.com
+*.vk.com
+*.vlxx.tv
+*.9gag.com
+*.mail.google.com
+*.bbc.co.uk
+*.imgur.com
+*.vnexpress.net
+*.lenta.ru
+*.yahoo.com
+*.nytimes.com
+*.news.ycombinator.com
+*.espn.com
+*.theguardian.com
+*.quora.com
+*.cnn.com
+*.wuxiaworld.com
+*.amazon.com
+*.bbc.com
+*.news.google.com
+*.bilibili.com
+*.tumblr.com
+*.totalcar.hu
+*.pornhub.com
+*.idnes.cz
+*.washingtonpost.com
+*.buzzfeed.com
+*.korrespondent.net
+*.wykop.pl
+*.netflix.com
+*.coincap.io
+*.douban.com
+*.readmanga.today
+*.milliyet.com.tr
+*.messenger.com
+*.mangapanda.com
+*.spiegel.de
+*.douyu.com
+*.web.facebook.com
+*.twitch.tv
+*.sports.sina.com.cn
+*.eksisozluk.com
+*.bbs.hupu.com
