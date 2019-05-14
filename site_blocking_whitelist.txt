@@ -16,3 +16,10 @@ wills-tech-notes.blogspot.*
 chrome://*
 https://beautifier.io/*
 *.perl.org
+*gmail.com
+*elastic.co/*
+localhost*
+*okta.com*
+*careerbuilder.com*
+*blogger.com*
+*blogger.co.uk*
