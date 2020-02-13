@@ -1,5 +1,8 @@
-# source:
+# original source:
 # https://forum.sublimetext.com/t/multi-line-tabbar-for-st2/12978/5
+#
+# current source:
+# https://github.com/willsheppard/misc-config/blob/master/multicolumntabbar.py
 #
 # instructions:
 # - copy the code into a file named multicolumntabbar.py
