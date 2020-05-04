@@ -63,6 +63,123 @@ www.google.co.uk###hplogo
 www.google.co.uk###logocont
 www.google.co.uk###lga
 www.google.co.uk###prm
+www.google.co.uk##promo
+www.google.com##.logo
+www.google.com###hplogo
+www.google.com###logocont
+www.google.com###lga
+www.google.com###prm
+www.google.com##promo
+||www.google.co.uk/logos/doodles/$image
+
+!! /End section copied from Adblock Plus
+
+confluence.nap##.comment-user-logo
+www.pcworld.com##.small-player.video-wrapper
+www.pcworld.com##.stick-rr-vid.howto-video-feature
+
+www.express.co.uk##.right-column
+
+||avatars1.githubusercontent.com/u/1519594?s=88&v=4$image
+||avatars1.githubusercontent.com/u/1519594$image
+github.com##.js-comment-container.timeline-new-comment.timeline-comment-wrapper > .timeline-comment-avatar
+medium.com##.multirecommend
+medium.com##.u-paddingTop20.u-marginTop10.u-borderTopLightest.uiScale-caption--regular.uiScale-ui--small.uiScale
+gizmodo.com##.sidebar
+
+!! Broadbean
+
+bitbucket.org##[src="https://bitbucket.org/account/seanlatbean/avatar/32/?ts=1536551955"]
+||bitbucket.org/account/seanlatbean/avatar/64/$image
+broadbean.atlassian.net##.tabs-menu
+broadbean.atlassian.net###zendesk_for_jira__issue-panel
+broadbean.atlassian.net###jql-extensions__issuejql-leftpanel
+broadbean.atlassian.net###hipchat-viewissue-panel
+broadbean.atlassian.net###rw-smart-checklists__rw-checklist-issue-panel-right
+broadbean.hipchat.com##.aui-button-light.aui-button.hc-video-call-btn-link
+broadbean.hipchat.com##.aui-button-light.aui-button.hc-video-call-btn-link
+
+bitbucket.org##.clearfix.participants.qr-notice
+
+! 15/02/2019 https://www.thisismoney.co.uk
+www.thisismoney.co.uk###p-1045
+www.thisismoney.co.uk###mini-carousel-wrapper
+
+! 22/03/2019 https://app.parentpay.com
+app.parentpay.com###body_body_ctl00_divContainer
+app.parentpay.com##.advert-pad
+
+! 30/04/2019 https://stackoverflow.com
+stackoverflow.com##.mb16.s-anchors__default.s-anchors.s-sidebarwidget__yellow.s-sidebarwidget
+
+! Google images
+!www.google.com/imgres
+!www.google.com/search##img
+!www.google.com/*$image
+!www.google.com/imgres*$image
+!www.google.com/search##img*$image
+!www.google.com/search*$image
+! The syntax is wrong...
+
+! 05/09/2019 https://mail.google.com
+mail.google.com###talk_roster
+
+! 25/09/2019 https://github.com
+||avatars0.githubusercontent.com/u/1519594?s=80&v=4$image
+! proposed?
+!github.com##discussion-timeline-actions > IMAGE
+
+! 08/10/2019 https://superuser.com
+superuser.com###sidebar
+
+! 23/10/2019 https://www.thesun.co.uk
+www.thesun.co.uk###sidebar
+www.thesun.co.uk##.article__content > .sun-row
+
+! 28/10/2019 https://apple.stackexchange.com
+apple.stackexchange.com###sidebar
+
+! 03/12/2019 https://community.atlassian.com
+||api-private.atlassian.com/users/5af96278a949ba6b59f69827/avatar?initials=public$image
+
+! 31/01/2020 https://stackoverflow.com
+stackoverflow.com##.mb16.s-anchors__grayscale.s-anchors.s-sidebarwidget__yellow.s-sidebarwidget
+
+! 10/02/2020 https://softwarerecs.stackexchange.com
+softwarerecs.stackexchange.com##.mb16.s-anchors__grayscale.s-anchors.s-sidebarwidget__yellow.s-sidebarwidget
+
+! 16/04/2020 https://courses.edx.org
+courses.edx.org##.course-expiration-message
+courses.edx.org##.action-toggle-verification-sock.focusable.btn-primary.btn
+
+
+! Don't mess with anything for example.com
+! public site
+@@||example.com/$document
+! dev site
+@@||example.com:8443/$document
+! dev vm port forwarded
+@@||example.com:11443/$document
+
+! Stackoverflow network sites
+! Don't distract me with interesting but unrelated content
+stackoverflow.com##DIV[id="newsletter-ad"]
+##DIV[class="module community-bulletin"]
+##DIV[id="chat-feature"][class="module"]
+##DIV[id="hot-network-questions"][class="module"]
+##DIV[class="module sidebar-related"]
+
+! Facebook: Hide my picture icon next to the "Write a comment..." input box.
+! It's confusing to see my picture there, it always makes me think I've already commented.
+facebook.com##.img.UFIActorImage[alt="Will Sheppard"]
+
+! Hide distracting Google doodles and promotions
+! 12/8/2017, 9:58:38 AM https://www.google.co.uk/
+www.google.co.uk##.logo
+www.google.co.uk###hplogo
+www.google.co.uk###logocont
+www.google.co.uk###lga
+www.google.co.uk###prm
 www.google.com##.logo
 www.google.com###hplogo
 www.google.com###logocont
