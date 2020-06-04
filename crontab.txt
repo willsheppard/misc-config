@@ -1,0 +1,19 @@
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7)  OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  *  command to be executed
+# *  *  *  *  *  command --arg1 --arg2 file1 file2 2>&1
+
+# m  h  dom mon dow     command
+  0  3  *   *   *       /usr/bin/ruby $USER_DIR/dev/send-me-motd/send-me-motd.rb '/root/dev/send-me-motd/data/personal1.txt' '...passcode...' 'from@example.com' 'affirmations@example.com' >> /var/log/send-me-motd.log 2>> /var/log/send-me-motd.err
+
+# m  h  dom mon dow     command
+  15 *  *   *   *       /usr/local/bin/python $USER_DIR/dev/instagram2email/parse.py 'https://www.instagram.com/username/' >> /var/log/instagram2email.log 2>> /var/log/instagram2email.err
+
+WEBDIR=/var/www/name/irc/logs
+SRCDIR=/home/name/irclogs
+# m  h  dom mon dow     command
+*/2  *  *   *   *       { cp -v $SRCDIR/*/*-`date +"\%Y-\%m-\%d"`.txt $WEBDIR/; chown :www-data $WEBDIR/*-`date +"\%Y-\%m-\%d"`.txt; chmod -v g+r $WEBDIR/*-`date +"\%Y-\%m-\%d"`.txt; } >> /var/log/irclogs.log 2>> /var/log/irclogs.err
