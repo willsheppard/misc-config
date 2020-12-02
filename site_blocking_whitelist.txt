@@ -1,6 +1,7 @@
 # Allowed sites, to be used with software like Chrome's plugins
 # StayFocusd or WasteNoTime, or router or ISP-level blocking.
 *.github.com
+*.githubusercontent.com
 *.metacpan.org
 *.mojolicious.org
 *.google.com
