@@ -5,4 +5,7 @@
 
     // Set to true to insert spaces when tab is pressed
     "translate_tabs_to_spaces": false,
+
+    // Tab should only print a tab, not auto-complete the word
+    "tab_completion": false,
 }
