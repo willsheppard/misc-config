@@ -37,3 +37,4 @@ perlmonks.org
 *nixonwilliamsvantage.com
 *pinboard.in
 /Users/*
+id.atlassian.com
