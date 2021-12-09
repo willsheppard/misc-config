@@ -1,5 +1,3 @@
-# Allowed sites, to be used with software like Chrome's plugins
-# StayFocusd or WasteNoTime, or router or ISP-level blocking.
 *.github.com
 *.githubusercontent.com
 *.metacpan.org
@@ -67,3 +65,12 @@ calendar.google.com
 dbdiagram.io
 *broadbean.atlassian.net*
 webchat.freenode.net
+lojgmehidjdhhbmpjfamhpkpodfcodef
+chrome-extension://lojgmehidjdhhbmpjfamhpkpodfcodef/*
+*.amazonaws.com
+*.bbdev:4443
+*.mysql.com
+*.pickerwheel.com
+*.visualstudio.com
+*.globalplayer.com
+*.gov.uk
