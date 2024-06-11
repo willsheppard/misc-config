@@ -1,5 +1,15 @@
-// settings.json file for vscode
 {
+    "git.enableSmartCommit": true,
+    "workbench.activityBar.iconClickBehavior": "focus",
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "workbench.editor.enablePreview": false,
+    "files.trimTrailingWhitespace": true,
+    "git.openRepositoryInParentFolders": "never",
+    "extensions.ignoreRecommendations": true,
+    "editor.renderLineHighlight": "none",
+    "editor.hover.enabled": false,
+    "editor.inlineSuggest.enabled": false,
     "editor.lineNumbers": "on",
     "editor.folding": true,
     "editor.glyphMargin": true,
