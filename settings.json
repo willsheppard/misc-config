@@ -1,0 +1,17 @@
+// settings.json file for vscode
+{
+    "editor.lineNumbers": "on",
+    "editor.folding": true,
+    "editor.glyphMargin": true,
+    "editor.stickyScroll.enabled": false,
+    "editor.autoClosingBrackets": "never",
+    "editor.matchBrackets": "never",
+    "editor.autoClosingDelete": "never",
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.occurrencesHighlight": "off",
+    "editor.selectionHighlight": false,
+    "editor.quickSuggestions": {
+        "other": "off"
+    },
+    "editor.quickSuggestionsDelay": 1000,
+}
